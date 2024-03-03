@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #F9E897;
+    text-align: center;
+}
+
+h1 {
+    color: #294B29;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+
+
+.container {
+    height: 70vh;
+    display: flex;
+    margin-top: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    background-color: #FFC374;
+    font-size: 8vmin;
+    color: #294B29;
+    font-weight: bold;
+}
+
+.reset-btn {
+    background-color: #294B29;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reset-btn:hover {
+    background-color: #50623A;
+
+}
+
+
+.new-btn {
+    background-color: #294B29;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.new-btn:hover {
+    background-color: #50623A;
+
+}
+
+
+
+#msg {
+    color: #294B29;
+    font-size: 5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
